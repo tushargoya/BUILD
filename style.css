@@ -1,0 +1,219 @@
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('Images/1.png'); /* Replace 'hero-background.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 10em 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #FFD300; /* Royal Yellow */
+    color: #1F2D3D; /* Sage Green */
+    font-size: 1em;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #DAA520; /* Darker shade of yellow for hover effect */
+}
+/* About Founder Section Styles */
+.founder-section {
+    background-color: #F4F4F4; /* Light Grey */
+    text-align: center;
+    padding: 6em 0;
+}
+
+.founder-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.founder-content img {
+    border-radius: 0%;
+    max-width: 300px;
+    height: 310px;
+}
+
+.founder-info {
+    max-width: 600px;
+    text-align: left;
+}
+
+.founder-info h2 {
+    color: #1F2D3D; /* Sage Green */
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.founder-info p {
+    font-size: 1.2em;
+    color: #5D6270; /* Grey */
+    line-height: 1.6;
+}
+.founder-content img {
+    border-radius: 50%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+/* Why Choose Us Section Styles */
+.why-choose-section {
+    background-color: #ffffff; /* White */
+    text-align: center;
+    padding: 6em 0;
+}
+
+.why-choose-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.why-choose-item {
+    max-width: 300px;
+    margin: 1.5em;
+}
+
+.why-choose-item img {
+    max-width: 80px;
+    height: auto;
+}
+
+.why-choose-item h3 {
+    color: #1F2D3D; /* Sage Green */
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.why-choose-item p {
+    color: #5D6270; /* Grey */
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+/* Countdown Timer Section Styles */
+.countdown-section {
+    background: linear-gradient(45deg, #1E1E1E, #2C2C2C); /* Gradient background */
+    text-align: center;
+    padding: 6em 0;
+    color: #FFD300; /* Royal Yellow */
+    overflow: hidden; /* Ensure gradient doesn't overflow */
+}
+
+.countdown-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#countdown {
+    font-size: 3em; /* Increased font size */
+    font-weight: bold;
+    margin-top: 1em;
+    opacity: 0; /* Initially hidden for animation */
+    animation: fadeIn 1.5s forwards, backgroundAnimation 10s infinite linear; /* Fade-in and background animations */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Background Animation */
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Call to Action Section Styles */
+.cta-section {
+    background-color: #333; /* Dark Gray */
+    text-align: center;
+    padding: 6em 0;
+    color: #fff; /* White */
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.cta-content p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #FFD300; /* Royal Yellow */
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #FFD300; /* Royal Yellow */
+    color: #1F2D3D; /* Sage Green */
+    font-size: 1em;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #DAA520; /* Darker shade of yellow for hover effect */
+}
+
